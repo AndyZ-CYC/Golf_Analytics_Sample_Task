@@ -1,0 +1,31 @@
+Regression Analysis Results:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Score   R-squared:                       0.826
+Model:                            OLS   Adj. R-squared:                  0.826
+Method:                 Least Squares   F-statistic:                     3422.
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):               0.00
+Time:                        20:33:15   Log-Likelihood:                -2503.7
+No. Observations:                1440   AIC:                             5013.
+Df Residuals:                    1437   BIC:                             5029.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         58.7469      0.437    134.427      0.000      57.890      59.604
+GIR           -1.2705      0.017    -73.425      0.000      -1.304      -1.237
+Putt           0.9464      0.016     60.892      0.000       0.916       0.977
+==============================================================================
+Omnibus:                      145.040   Durbin-Watson:                   1.544
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              260.332
+Skew:                           0.672   Prob(JB):                     2.95e-57
+Kurtosis:                       4.591   Cond. No.                         388.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Monte Carlo Simulation Results:
+Estimated Probability: 0.0296
+Standard Error: 0.0017
